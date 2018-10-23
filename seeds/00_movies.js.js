@@ -11,7 +11,7 @@ exports.seed = function(knex, Promise) {
           director: 'Rob Reiner',
           year: 1989,
           rating: 5,
-          poster_url:'https://www.imdb.com/title/tt0098635/mediaviewer/rm1579924224'
+          poster_url:'https://m.media-amazon.com/images/M/MV5BMjE0ODEwNjM2NF5BMl5BanBnXkFtZTcwMjU2Mzg3NA@@._V1_SY1000_CR0,0,666,1000_AL_.jpg'
         },
         {
           id: 2,
@@ -19,7 +19,7 @@ exports.seed = function(knex, Promise) {
           director: 'F. Gary Gray',
           year: 2003,
           rating: 3,
-          poster_url:'https://www.imdb.com/title/tt0317740/mediaviewer/rm2803177216'
+          poster_url:'https://m.media-amazon.com/images/M/MV5BNDYyNzYxNjYtNmYzMC00MTE0LWIwMmYtNTAyZDBjYTIxMTRhXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_CR0,0,666,1000_AL_.jpg'
         },
         {
           id: 3,
@@ -27,7 +27,7 @@ exports.seed = function(knex, Promise) {
           director: 'Steven Soderbergh',
           year: 2001,
           rating: 4,
-          poster_url: 'https://www.imdb.com/title/tt0240772/mediaviewer/rm3370325760'
+          poster_url: 'https://m.media-amazon.com/images/M/MV5BYzVmYzVkMmUtOGRhMi00MTNmLThlMmUtZTljYjlkMjNkMjJkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_CR0,0,675,1000_AL_.jpg'
         }
       ]);
     })
