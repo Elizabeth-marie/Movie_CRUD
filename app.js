@@ -8,9 +8,6 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var moviesRouter = require('./routes/movies')
 
-var helmet = require('helmet')
-app.use(helmet())
-
 var app = express();
 var cors = require('cors')
 app.use(cors())
