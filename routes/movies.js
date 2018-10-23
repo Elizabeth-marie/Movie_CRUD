@@ -76,7 +76,6 @@ router.put('/:id', (req, res, next) =>
     })
   } else {
     throw new Error(`Movie number ${id} not found. Unable to update.`)
-  }
   })
   .catch((error) => {
     next(error)
