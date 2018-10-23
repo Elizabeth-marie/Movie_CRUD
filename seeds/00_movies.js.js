@@ -30,7 +30,7 @@ exports.seed = function(knex, Promise) {
           poster_url: 'https://www.imdb.com/title/tt0240772/mediaviewer/rm3370325760'
         }
       ]);
-    });
+    })
     .then(() => {
       return knex.raw("SELECT setval('movies_id_seq', (SELECT MAX(id) FROM movies));")
     })
