@@ -55,7 +55,7 @@ router.post('/', (req, res, next) => {
 
 
 // UPDATE ONE record for this table
-router.put('/:id', (req, res, next) =>
+router.put('/:id', (req, res, next) => {
   knex('movies')
   .where('id', req.params.id)
   .then( (movie) => {
